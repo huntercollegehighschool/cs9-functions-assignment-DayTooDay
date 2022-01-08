@@ -4,6 +4,8 @@ Any user inputs and console outputs (input and print) is handled below. The code
 
 import os
 
+os.system('clear')
+
 def main():
   program = input("Enter 1, 2, 3, or 4: ")
   while program not in ['1', '2', '3', '4']:
